@@ -5,6 +5,7 @@
   justify-content: flex-start;
   justify-items: center;
   margin: 20px;
+  row-gap: 10px;
 
   &__header {
     grid-row: head-s/head-e;
@@ -27,6 +28,10 @@
     margin: 10px;
     text-align: center;
     width: 100%;
+    letter-spacing: 1px;
+    color: #048c4e;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   & button {

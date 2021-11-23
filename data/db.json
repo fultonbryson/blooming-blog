@@ -1,28 +1,22 @@
 {
   "blogs": [
     {
-      "title": "good job bud",
-      "body": ":)",
+      "title": "Bulbasaur, The Seed Pokémon",
+      "body": "Bulbasaur is a cute Pokémon born with a large seed firmly affixed to its back; the seed grows in size as the Pokémon does. Along with Squirtle and Charmander, Bulbasaur is one of the three Pokémon available at the beginning of Pokémon Red and Blue.\n\nBulbasaur can be seen napping in bright sunlight. By soaking up the sun's rays, the seed grows progressively larger. It can go for days without eating a single morsel. It stores it's energy in the bulb on its back!\n\nIt evolves into Ivysaur",
       "author": "Bulbasaur",
       "id": 1
     },
     {
-      "title": "This is a good blog!",
-      "body": "Ayo but what the dog doin?",
+      "title": "Ivysaur, The Chlorophyl Pokémon",
+      "body": "A Seed Pokémon that is the evolved form of Bulbasaur. It has a flower bulb on its back, the weight of which has made it develop strong legs and hips. If the blossom gets too big, it can't stand on two legs alone. At a certain level, it evolves into Venusaur. When this happens, the bulb absorbs nutrients and blossoms into a large-petaled flower.",
       "author": "Ivysaur",
       "id": 2
     },
     {
-      "title": "peralta",
-      "body": "BOIoioioioIOIOIoioioiOIOIOOIng",
-      "author": "Ivysaur",
+      "title": "Venusaur, The Bloom Pokémon",
+      "body": "Evolving from Ivysaur, this deceptively toxic Pokémon has a huge flower on its back that emits a cloying fragrance: the scent lulls its enemies into a state of calmness. Venusaur's flower synthesizes sunshine into pure energy for its SolarBeam move. Think of Grass-type Pokémon, and Venusaur comes first.",
+      "author": "Venusaur",
       "id": 3
-    },
-    {
-      "title": "Wowee!",
-      "body": "What it do beby",
-      "author": "Ivysaur",
-      "id": 4
     }
   ]
 }
