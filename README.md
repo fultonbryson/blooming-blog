@@ -1,5 +1,3 @@
-# React/Redux/Router Starter Project
+# BulbaBLOG
 
-> Provided for the students of the [Bottega Code School](https://bottega.tech/)
-
-*Fork from [es6-webpack2-starter](https://github.com/micooz/es6-webpack2-starter)*
+> A small blog, design inspired by my favorite Pokémon :)
