@@ -1,0 +1,10 @@
+.home {
+  display: grid;
+  row-gap: 34px;
+  grid-template-columns: 1fr;
+  font-size: 2rem;
+  font-family: "Bubblegum Sans";
+  color: #ff9491;
+  width: 100%;
+  border-bottom: 3px solid transparent;
+}

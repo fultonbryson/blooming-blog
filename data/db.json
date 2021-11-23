@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "good job bud",
+      "body": ":)",
+      "author": "Bulbasaur",
+      "id": 1
+    },
+    {
+      "title": "This is a good blog!",
+      "body": "Ayo but what the dog doin?",
+      "author": "Ivysaur",
+      "id": 2
+    },
+    {
+      "title": "peralta",
+      "body": "BOIoioioioIOIOIoioioiOIOIOOIng",
+      "author": "Ivysaur",
+      "id": 3
+    },
+    {
+      "title": "Wowee!",
+      "body": "What it do beby",
+      "author": "Ivysaur",
+      "id": 4
+    }
+  ]
+}

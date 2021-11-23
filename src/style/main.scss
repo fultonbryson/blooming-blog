@@ -1,0 +1,35 @@
+html {
+  font-size: 62.5%; // 1rem is 10px
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #50c596;
+  font-family: "M PLUS 2", sans-serif;
+}
+
+.app {
+  display: grid;
+  justify-items: center;
+
+  .content {
+    width: 60vw;
+    background-color: #7cdab4;
+    border-radius: 5px;
+    height: calc(100vh - 125px);
+  }
+}
+
+@import "/header";
+@import "/navbar";
+@import "/home";
+@import "/blogList";
+@import "/blogDetails";
+@import "create.scss";

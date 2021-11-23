@@ -1,0 +1,83 @@
+.create {
+  display: grid;
+  justify-items: center;
+  height: 100%;
+  font-family: "Ubuntu";
+  color: #048a54;
+
+  .create-form {
+    display: grid;
+    grid-template-rows: [title-s] 50px [title-e body-s] 2fr [body-e foot-s] 1fr [foot-e];
+    grid-template-columns: 1fr;
+    width: 80%;
+    justify-items: center;
+    row-gap: 15px;
+    align-items: center;
+    height: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+
+    &__title {
+      grid-row: title-s/title-e;
+      display: grid;
+      width: 50%;
+      row-gap: 2px;
+
+      & input {
+        height: 25px;
+        border: 1px solid #048a54;
+        outline: none;
+        border-radius: 5px;
+        font-family: "M PLUS 1 Code", sans-serif;
+      }
+    }
+
+    &__body {
+      grid-row: body-s/body-e;
+      display: grid;
+      width: 100%;
+      border-radius: 5px;
+      row-gap: 2px;
+
+      & textarea {
+        height: 350px;
+        border-radius: 5px;
+        border: 1px solid #048a54;
+        outline: none;
+        font-family: "M PLUS 1 Code", sans-serif;
+      }
+    }
+
+    &__foot {
+      grid-row: foot-s/foot-e;
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 5px;
+      justify-items: center;
+      row-gap: 2px;
+
+      & select {
+        height: 35px;
+        width: 150px;
+        font-size: 1.5rem;
+        text-align: center;
+        background-color: #e6e6e6;
+        border-radius: 5px;
+        outline: none;
+        cursor: pointer;
+      }
+
+      & button {
+        height: 30px;
+        width: 100px;
+        font-family: "Bubblegum Sans";
+        background-color: #e6e6e6;
+        border-radius: 5px;
+        border: 1px solid #048a54;
+        outline: none;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.blog-details {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: [head-s] 825px [head-e body-s] 1fr [body-e foot-s] 50px [foot-e];
+  justify-content: flex-start;
+  justify-items: center;
+  margin: 20px;
+
+  &__header {
+    grid-row: head-s/head-e;
+
+    & h2 {
+      font-family: "M PLUS 1 Code", sans-serif;
+      font-size: 5rem;
+      font-weight: 900;
+      color: #ff9491;
+    }
+
+    & h3 {
+      color: #048a54;
+    }
+  }
+
+  & p {
+    grid-row: body-s/body-e;
+    font-size: 2rem;
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  & button {
+    grid-row: foot-s/foot-e;
+    align-content: flex-end;
+    height: 30px;
+    width: 75px;
+    background: #ff9491;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+    &:hover {
+      color: #cb0a05;
+    }
+  }
+}

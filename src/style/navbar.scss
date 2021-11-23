@@ -1,0 +1,55 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-content: space-around;
+  height: 100px;
+  width: 100%;
+
+  h1 {
+    font-size: 5rem;
+    color: #048a54;
+    font-family: "Bubblegum Sans", cursive;
+  }
+
+  &__links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+    width: 220px;
+  }
+
+  &__links a {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    color: #048c4e;
+    text-decoration: none;
+    font-weight: 600;
+    justify-items: center;
+
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    transition: 0.5s ease-in-out;
+
+    &:last-child {
+      color: white;
+      background-color: #ff9491;
+      border-radius: 8px;
+      width: 100%;
+      text-align: center;
+
+      &:hover {
+        letter-spacing: normal;
+        color: #cb0a05;
+      }
+    }
+
+    &:hover {
+      color: #b2f189;
+      letter-spacing: 1px;
+      font-weight: 900;
+    }
+  }
+}
